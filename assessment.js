@@ -17,7 +17,8 @@
  * QUESTION #1 -
  * What is the difference between a method and a function?
  * 
- * Answer Type: String (Add Answer Between Quotes)
+ * Answer Type: String 
+ * (They are both a set of instructions that perform a task. But a method is associated with an object and a function is not.)
  */
 
 ""
@@ -26,7 +27,8 @@
  * QUESTION #2 -
  * What is wrong with the following for loop?
  * 
- * Answer Type: String (it looks right to me besides the curly bracket, the first one should be at the the beginning.)
+ * Answer Type: String 
+ * (the i = timesToLoop, is wrong. it needs to be i < 15;)
  */
 
 let timesToLoop = 15;
@@ -41,7 +43,8 @@ for (let i = 0; i = timesToLoop; i++) {
  * Which type of conditional do you use when you want to assign a value to a variable based on a two-path conditional?
  * (Two path conditional means that there's only true or false, and no additional routes the conditional can take.)
  * 
- * Answer Type: String (this one confuses me. I would say an if statement, but im not sure if the if statement is a type of conditional)
+ * Answer Type: String 
+ * (for a true or false conditional you would use if and else condtional. if would be used if the answer is true, and else would be used if the answer is false.)
  */
 
 ""
@@ -64,7 +67,8 @@ for (let i = 0; i = timesToLoop; i++) {
  * C) document.createElement('div');
  * D) document.cloneElement('div');
  * 
- * Answer Type: String (A)
+ * Answer Type: String 
+ * (c)
  */
 
 ""
@@ -73,7 +77,8 @@ for (let i = 0; i = timesToLoop; i++) {
  * QUESTION #6 -
  * What does the word DOM mean in JS?
  * 
- * Answer Type: String (I remember the phrase dom manipulation being used.I don't think dom is a thing, but more of a term used to represent your code in js?)
+ * Answer Type: String 
+ * (The dom provides javascript with the access and ability to control all the elements of an html document inside of js.)
  */
 
 ""
@@ -82,7 +87,8 @@ for (let i = 0; i = timesToLoop; i++) {
  * QUESTION #7 -
  * What is the output of the function?
  * 
- * Answer Type: String (statement is being assigned "assessments are fun". so below you are saying statement === is true. so console log would print yes!)
+ * Answer Type: String 
+ * (nothing will happen. You need to execute the function.)
  */
 
 function testQuestionSeven() {
@@ -101,7 +107,8 @@ function testQuestionSeven() {
  * QUESTION #8 -
  * What do the following things have in common? 1.14, 10, 10009, 10.19919292
  * 
- * Answer Type: String (math. there is a set of math functions in js.)
+ * Answer Type: String 
+ * (they are typescript data types     numbers)
  * Hint: Think of their general TYPE....
  */
 
@@ -143,10 +150,15 @@ switch (value) {
  * Write a function that takes a height, and a width, and creates that amount of squares in a grid. 
  * 
  * Answer Type: Function
+ * let gridElement = document.querySelector('.grid');
+ *      for let(i = 0; i < 10; i++){
+ *      let square = document.createElement('div');
+ *      square.classList.add('square');
+ *      gridElement.appendChild('square')
+ * }
  */
 
-function createGrid(' 25, 25') {
-    let createGrid = square.appendchild
+
 
 
 }
@@ -155,7 +167,8 @@ function createGrid(' 25, 25') {
  * QUESTION #12 -
  * What is the difference between a global and a local variable?
  * 
- * Answer Type: String (local would be a variable that we set. global would be all the preset variables that html, css, and js know already)
+ * Answer Type: String 
+ * (local variable is only available in that function. Global variable is available throughout the whole program.)
  */
 
 ""
@@ -169,7 +182,8 @@ function createGrid(' 25, 25') {
  * C) PATCH
  * D) DELETE
  * 
- * Answer Type: String (I don't know but would like to know )
+ * Answer Type: String 
+ * (A)
  */
 
 ""
